@@ -13,12 +13,6 @@ Config.set('graphics', 'width', 600)
 Config.set('graphics', 'height', 620)
 
 
-async def win_green_pulse(instance):
-    while True:
-        instance.background_color = (0, 0.8, 0)
-
-
-
 def get_by_id(index_id):
     return ctypes.cast(index_id, ctypes.py_object).value
 
